@@ -11,9 +11,10 @@ NOTE: unofficial reference says docker-ce is for rhel 7.3+
 ## 7.2 Server (needs verification)
    - Server w/ GUI + Dev Tools
    - vbox additions 
+   - modify /etc/group
    - reboot
    - register && subscribe to correct pool
-   - subscript to additional repos
+   - subscribe to 3 additional repos
    - yum install container-selinux
    - install local copy of docker-ce
    - modify /etc/group
@@ -46,7 +47,17 @@ NOTE: unofficial reference says docker-ce is for rhel 7.3+
 
 ## 7.4 Beta Server
    - Server w/ GUI + Dev Tools
-   - added 3 repos,  this gets container-selinux????
+   - registered at end of install (odd, maybe beta thing?)
+   - vbox additions 
+   - modify /etc/group
+   - reboot
+   - subscribe to 3 additional repos
+   - yum install container-selinux
+   - yum install docker-ce
+   - modify /etc/group
+   - start and enable docker
+   - reboot
+
 
 # AppImage Notes
   - Had to install libXscreensaver (sp)
