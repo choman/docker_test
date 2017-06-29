@@ -1,4 +1,4 @@
-Docker Notes
+# Docker Notes
    7.2 Server
      - following centos guide
      - Unable to install pre-reqs with subscriptionm
@@ -15,7 +15,7 @@ Docker Notes
      - need container-selinux rpm
 
 
-AppImage Notes
+# AppImage Notes
   - Had to install libXscreensaver (sp)
 
 
